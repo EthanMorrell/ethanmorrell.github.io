@@ -24,6 +24,54 @@ body {
     margin-right: 25%;
     width: 50%;
     height: 100%;
-    background-color: gray;
+    background-color: rgba(20,20,20,0.95);
     z-index: 1;
 }
+
+
+
+
+
+#navBar {
+    margin: 5%;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    border-radius: 10px;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: inherit;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: inherit;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #00AAFF;
+}
+#rickRoll {
+    float: right;
+}
+
+
+
+
+
+
+
+
