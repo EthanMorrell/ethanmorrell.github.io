@@ -69,9 +69,17 @@ li a:hover:not(.active) {
 }
 
 #passGen {
-    margin: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    z-index: 10;
 }
 
 #blownToBits {
-    margin: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    z-index: 10;
 }
