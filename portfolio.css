@@ -68,12 +68,15 @@ li a:hover:not(.active) {
     float: right;
 }
 
+#testFrame {
+    margin: 5%;
+}
+
 #passGen {
     margin-left: 5%;
     margin-right: 5%;
     margin-top: 5%;
     margin-bottom: 5%;
-    z-index: 10;
 }
 
 #blownToBits {
@@ -81,5 +84,4 @@ li a:hover:not(.active) {
     margin-right: 5%;
     margin-top: 5%;
     margin-bottom: 5%;
-    z-index: 10;
 }
