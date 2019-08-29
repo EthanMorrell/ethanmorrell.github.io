@@ -67,3 +67,19 @@ li a:hover:not(.active) {
 #rickRoll {
     float: right;
 }
+
+#passGen {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    z-index: 10;
+}
+
+#blownToBits {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    z-index: 10;
+}
