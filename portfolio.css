@@ -7,14 +7,14 @@ body {
     background-image: url("https://scontent.fhel5-1.fna.fbcdn.net/v/t1.0-1/c108.44.555.555a/s160x160/392201_286039434771115_1527657212_n.jpg?_nc_cat=108&_nc_oc=AQmVyiUo72S0GNT2kzgYrqnFkU6ZdNnlC0G5r4ab9N-nvwLNWO_XOzQPgnLBc3OA5T0&_nc_ht=scontent.fhel5-1.fna&oh=0b879e4f7a652803b4c561b4a2fd8b1c&oe=5E079BB7");
     position: absolute;
     width: 100%;
-    height: 100%;
+    height: 150%;
     z-index: 0;
 }
 #div2 {
     position: absolute;
     margin-left: 50%;
     width: 50%;
-    height: 100%;
+    height: 150%;
     background-image: url("https://scontent-lht6-1.xx.fbcdn.net/v/t1.0-1/p320x320/69717666_108022563905395_735784677272453120_n.jpg?_nc_cat=100&_nc_oc=AQm_WfDqer3c6mDw5eV8-NmOgoHtxwi4r7OZiSGbnyxN46MmMX9e9eiHLdYWj-wZGec&_nc_ht=scontent-lht6-1.xx&oh=f7f04be12be6a9cf87fcea4a28b21070&oe=5DCC09E3");
     z-index: 0;
 }
@@ -23,7 +23,7 @@ body {
     margin-left: 25%;
     margin-right: 25%;
     width: 50%;
-    height: 100%;
+    height: 150%;
     background-color: rgba(20,20,20,0.95);
     z-index: 1;
 }
