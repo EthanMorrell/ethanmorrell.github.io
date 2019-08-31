@@ -1,6 +1,7 @@
 body {
     color: #FFFFFF;
     font-family: 'Circular-Book', Arial, sans-serif;
+    margin: 5%;
 }
 
 #div1 {
@@ -63,8 +64,4 @@ li a:hover:not(.active) {
 
 #rickRoll {
     float: right;
-}
-
-p {
-    margin: 5%;
 }
