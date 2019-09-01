@@ -1,7 +1,6 @@
 body {
     color: #FFFFFF;
     font-family: 'Circular-Book', Arial, sans-serif;
-    margin: 5%;
 }
 
 #div1 {
@@ -30,7 +29,13 @@ body {
 }
 
 
+p {
+    margin: 5%;
+}
 
+h1 {
+    margin: 5%;
+}
 
 
 #navBar {
