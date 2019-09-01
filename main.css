@@ -37,15 +37,13 @@ h1 {
     position: absolute;
     width: 100%;
     height: auto;
-}
-
-p {
-    margin: 5%;
+    margin: 5%
 }
 
 #navBar {
     margin: 5%;
 }
+
 ul {
     list-style-type: none;
     margin: 0;
