@@ -28,14 +28,16 @@ body {
     z-index: 1;
 }
 
-p {
-    position: absolute;
-    margin: 5%;
-}
-
 h1 {
     position: absolute;
     margin: 5%;
+    display: block;
+}
+
+p {
+    position: absolute;
+    margin: 5%;
+    display: block;
 }
 
 #navBar {
