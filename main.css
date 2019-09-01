@@ -33,8 +33,12 @@ h1 {
     margin: 5%;
 }
 
-p {
+#div {
     position: absolute;
+    width: 100%;
+    height: auto;
+
+p {
     margin: 5%;
 }
 
