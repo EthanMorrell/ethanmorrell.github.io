@@ -27,7 +27,7 @@ body {
     z-index: 1;
 }
 #heading {
-    position: relative;
+    position: absolute;
     width: 90%;
     height: auto;
     margin: 5%;
@@ -36,7 +36,7 @@ body {
     position: absolute;
     width: 90%;
     height: auto;
-    margin: 5%
+    margin: 5%;
 }
 #navBar {
     margin: 5%;
