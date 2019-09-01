@@ -32,7 +32,11 @@ p {
     margin: 5%;
 }
 
-
+h1 {
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
 
 #navBar {
     margin: 5%;
