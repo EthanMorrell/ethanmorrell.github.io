@@ -33,6 +33,7 @@ p {
 }
 
 h1 {
+    position: absolute;
     margin: 5%;
 }
 
