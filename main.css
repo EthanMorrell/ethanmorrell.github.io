@@ -29,6 +29,7 @@ body {
 }
 
 p {
+    position: absolute;
     margin: 5%;
 }
 
