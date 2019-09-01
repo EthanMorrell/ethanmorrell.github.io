@@ -1,7 +1,6 @@
 body {
     color: #FFFFFF;
     font-family: 'Circular-Book', Arial, sans-serif;
-    margin: 5%;
 }
 
 #div1 {
@@ -29,7 +28,9 @@ body {
     z-index: 1;
 }
 
-
+p {
+    margin: 5%;
+}
 
 
 
