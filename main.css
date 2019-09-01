@@ -26,14 +26,6 @@ body {
     background-color: rgba(20,20,20,0.95);
     z-index: 1;
 }
-#content {
-    position: absolute;
-    width: 90%;
-    height: auto;
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-bottom: 5%;
-}
 #navBar {
     margin-top: 5%;
     margin-right: 5%;
@@ -64,4 +56,12 @@ li a:hover:not(.active) {
 }
 #rickRoll {
     float: right;
+}
+#content {
+    position: absolute;
+    width: 90%;
+    height: auto;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
 }
