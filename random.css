@@ -1,7 +1,6 @@
 body {
     color: #FFFFFF;
     font-family: 'Circular-Book', Arial, sans-serif;
-    background-image: url("/therealcursorshrek.png");
 }
 
 #div1 {
@@ -28,11 +27,6 @@ body {
     background-color: rgba(20,20,20,0.95);
     z-index: 1;
 }
-
-
-
-
-
 #navBar {
     margin: 5%;
 }
@@ -44,11 +38,9 @@ ul {
     background-color: #333;
     border-radius: 10px;
 }
-
 li {
     float: left;
 }
-
 li a {
     display: block;
     color: inherit;
@@ -57,16 +49,12 @@ li a {
     text-decoration: none;
     font-family: inherit;
 }
-
 li a:hover:not(.active) {
     background-color: #111;
 }
-
 #rickRoll {
     float: right;
 }
-
-
 #blownToBits {
     margin-left: 5%;
     margin-right: 5%;
