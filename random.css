@@ -1,6 +1,7 @@
 body {
     color: #FFFFFF;
     font-family: 'Circular-Book', Arial, sans-serif;
+    background-image: url("/therealcursorshrek.ico");
 }
 
 #div1 {
@@ -34,7 +35,6 @@ body {
 
 #navBar {
     margin: 5%;
-    cursor: url("/therealcursorshrek.png"), auto;
 }
 ul {
     list-style-type: none;
