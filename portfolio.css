@@ -69,3 +69,11 @@ li a:hover:not(.active) {
     margin-top: 5%;
     margin-bottom: 5%;
 }
+#content {
+    position: absolute;
+    width: 90%;
+    height: auto;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+}
