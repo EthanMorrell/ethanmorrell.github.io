@@ -1,4 +1,4 @@
-body {
+html, body {
     color: #FFFFFF;
     font-family: 'Circular-Book', Arial, sans-serif;
 }
@@ -70,4 +70,13 @@ li a:hover:not(.active) {
     margin-left: 5%;
     margin-right: 5%;
     margin-bottom: 5%;
+}
+.portName {
+    position: absolute;
+    width: 80%;
+    height: auto;
+    margin-top: 0%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 0%;
 }
