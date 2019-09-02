@@ -57,12 +57,6 @@ li a:hover:not(.active) {
 #rickRoll {
     float: right;
 }
-#passGen {
-    margin: 5%;
-}
-#blownToBits {
-    margin: 5%;
-}
 #content {
     position: absolute;
     width: 90%;
