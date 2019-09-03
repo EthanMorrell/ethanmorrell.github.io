@@ -75,16 +75,13 @@ li a:hover:not(.active) {
     cursor: url("/therealcursorshrek.cur"), auto;
     /*This makes the nav bar look pretty and sets the cursor to shrek*/
 }
-p {
+#content {
     position: absolute;
     width: 90%;
     height: auto;
-    margin: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
     cursor: url("/therealcursorshrek.cur"), auto;
-    /*This gives the text some space and sets the cursor to shrek*/
-}
-#idek {
-    margin: 5%;
-    cursor: url("/therealcursorshrek.cur"), auto;
-    /*This gives the iframe some space and sets the cursor to shrek*/
+    /*This sets the margins for the actual content and sets the cursor to shrek*/
 }
