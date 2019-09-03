@@ -48,12 +48,12 @@ ul {
     background-color: #333;
     border-radius: 10px;
     cursor: url("/therealcursorshrek.cur"), auto;
-    /*This makes the nav bar look pretty and sets the cursor to shrek*/
+    /*This gets rid of the formatting so that the links are inline and sets the cursor to shrek*/
 }
 li {
     float: left;
     cursor: url("/therealcursorshrek.cur"), auto;
-    /*This makes the nav bar look pretty and sets the cursor to shrek*/
+    /*This aligns the links and sets the cursor to shrek*/
 }
 li a {
     display: block;
@@ -63,17 +63,17 @@ li a {
     text-decoration: none;
     font-family: inherit;
     cursor: url("/therealcursorshrek.cur"), auto;
-    /*This makes the nav bar look pretty and sets the cursor to shrek*/
+    /*This formats the text inside the nav bar and sets the cursor to shrek*/
 }
 li a:hover:not(.active) {
     background-color: #111;
     cursor: url("/therealcursorshrek.cur"), auto;
-    /*This makes the nav bar look pretty and sets the cursor to shrek*/
+    /*This makes the link that you're hovering on turn darker and sets the cursor to shrek*/
 }
 #rickRoll {
     float: right;
     cursor: url("/therealcursorshrek.cur"), auto;
-    /*This makes the nav bar look pretty and sets the cursor to shrek*/
+    /*This aligns the extra button to the right and sets the cursor to shrek*/
 }
 #content {
     position: absolute;
