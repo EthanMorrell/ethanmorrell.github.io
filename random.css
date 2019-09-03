@@ -75,3 +75,9 @@ li a:hover:not(.active) {
     cursor: url("/therealcursorshrek.cur"), auto;
     /*This makes the nav bar look pretty and sets the cursor to shrek*/
 }
+p{
+    position: absolute;
+    width: 90%;
+    height: auto;
+    margin: 5%;
+}
