@@ -44,7 +44,7 @@ html, body {
     margin: 5%;
     /*This gives the iframe some space*/
 }
-scratchGame {
+#scratchGame {
     margin: 5%;
 }
 ul {
