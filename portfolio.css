@@ -47,6 +47,9 @@ html, body {
 #scratchGame {
     margin: 5%;
 }
+#interactiveStory {
+    margin: 5%;
+}
 ul {
     list-style-type: none;
     margin: 0;
