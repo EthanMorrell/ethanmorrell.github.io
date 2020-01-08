@@ -7,7 +7,7 @@ html, body {
     background-image: url("https://scontent.fhel5-1.fna.fbcdn.net/v/t1.0-1/c108.44.555.555a/s160x160/392201_286039434771115_1527657212_n.jpg?_nc_cat=108&_nc_oc=AQmVyiUo72S0GNT2kzgYrqnFkU6ZdNnlC0G5r4ab9N-nvwLNWO_XOzQPgnLBc3OA5T0&_nc_ht=scontent.fhel5-1.fna&oh=0b879e4f7a652803b4c561b4a2fd8b1c&oe=5E079BB7");
     position: absolute;
     width: 100%;
-    height: 1600px;
+    height: 2600px;
     z-index: 0;
     /*This sets the background image for the left column and sets it to the back of the screen*/
 }
