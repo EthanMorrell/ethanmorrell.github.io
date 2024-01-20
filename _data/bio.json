@@ -1,12 +1,12 @@
 {
   "basics": {
     "name": "Ethan Morrell",
-    "label": "Student",
+    "label": "Undergraduate Student",
     "picture": "https://raw.githubusercontent.com/EthanMorrell/ethanmorrell.github.io/main/img/ethan-headshot.jpg",
     "email": "emorrell@hawaii.edu",
     "phone": "",
     "website": "https://ethanmorrell.github.io",
-    "summary": "I am studying for a B.A. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2026.",
+    "summary": "Hi, I'm Ethan! I am studying for a B.A. in Information and Computer Sciences with a concentration in Security Science at the University of Hawaii at Manoa. I expect to graduate in Spring, 2026.",
     "location": { "address": "", "postalCode": "96822", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
     "profiles": [
       { "network": "github", "username": "ethanmorrell", "url": "https://github.com/ethanmorrell" },
@@ -110,10 +110,16 @@
   ],
   "awards": [
     {
+      "title": "Dean's List",
+      "date": "2023",
+      "awarder": "University of Hawaii at Manoa",
+      "summary": "Awarded to students who earn a semester GPA of 3.5 or higher based on 12 credits or more."
+    }
+    {
       "title": "B+ Scholarship",
       "date": "2022-Present",
       "awarder": "State of Hawaii",
-      "summary": "Scholarships awarded to incoming freshmen and continuing students who complete a rigorous high school curriculum with a minimum overall GPA of 3.0 at a Hawai'i public school."
+      "summary": "Awarded to students who earn a minimum overall GPA of 3.0 at a Hawai'i public high school."
     }
   ],
   "references": [
