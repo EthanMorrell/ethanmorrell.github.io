@@ -25,7 +25,20 @@
     },
     {
       "name": "Toolsets/OS",
-      "keywords": [ "MacOS", "Ubuntu", "Git/GitHub", "g++", "TI LaunchPad" ]
+      "keywords": [ "Windows", "Ubuntu" ]
+    }
+  ],
+  "certifications": [
+    {
+      "name": "Certifications",
+      "startDate": "2021-10-30",
+      "endDate": "2025-10-31",
+      "summary": "GIAC Foundational Cybersecurity Technologies (GFACT) #201714"
+    },
+    {
+      "name": "Certifications",
+      "startDate": "2022-05-09",
+      "summary": "TestOut PC Pro #6-1C6-MT74P"
     }
   ],
   "education": [
@@ -35,60 +48,58 @@
       "studyType": "B.A.",
       "startDate": "2022-08-22",
       "endDate": "Present",
-      "courses": [
-      ]
     }
   ],
   "work": [
     {
-      "company": "",
-      "position": "",
-      "website": "",
-      "startDate": "",
-      "endDate": "",
+      "company": "Keiki Coders",
+      "position": "Assistent Computer Science Instructor",
+      "website": "https://www.keikicoders.com/",
+      "startDate": "2022-10-18",
+      "endDate": "2022-12-20",
       "summary": "",
       "highlights": [
-        "",
-        ""
+        "Delivered weekly Python programming lessons to a group of 20 middle school students",
+        "Helped students develop personal projects for their final presentations "
       ]
     },
     {
-      "company": "",
-      "position": "",
+      "company": "UH Manoa Department of Mathematics",
+      "position": "Math Learning Assistant",
       "website": "",
-      "startDate": "",
-      "endDate": "",
+      "startDate": "2023-08-21",
+      "endDate": "Present",
       "summary": "",
       "highlights": [
-        "",
-        ""
+        "Help lead two sections of precalculus recitations (~60 students)",
+        "Help students complete assignments during recitations and office hours"
+      ]
+    },
+    {
+      "company": "UH Manoa CTAHR Department of Tropical Plant and Soil Sciences",
+      "position": "USDA REEU Intern",
+      "website": "https://cms.ctahr.hawaii.edu/reeu",
+      "startDate": "2023-08-05",
+      "endDate": "2023-09-04",
+      "summary": "",
+      "highlights": [
+        "Learned about maize phenotyping, machine learning, and statistical analyses",
+        "Applied machine learning and visualization techniques to maize datasets",
+        "Developed a nine-week research project for the 2023 UHM SURE Symposium"
       ]
     }
   ],
   "volunteer": [
     {
-      "organization": "",
+      "organization": "UH Manoa GreyHats",
       "website": "",
-      "position": "",
-      "startDate": "",
-      "endDate": "",
+      "position": "Vice Chairperson",
+      "startDate": "Fall 2023",
+      "endDate": "Present",
       "summary": "",
       "highlights": [
-        "",
-        ""
-      ]
-    },
-    {
-      "organization": "",
-      "website": "",
-      "position": "",
-      "startDate": "",
-      "endDate": "",
-      "summary": "",
-      "highlights": [
-        "",
-        "",
-        ""
+        "Organize and facilitate weekly meetings about various topics in cybersecurity",
+        "Provide opportunities to gain experience through competitions and practice challenges"
       ]
     }
   ],
@@ -98,12 +109,6 @@
       "date": "2022-Present",
       "awarder": "State of Hawaii",
       "summary": "Scholarships awarded to incoming freshmen and continuing students who complete a rigorous high school curriculum with a minimum overall GPA of 3.0 at a Hawai'i public school."
-    },
-    {
-      "title": "",
-      "date": "",
-      "awarder": "",
-      "summary": ""
     }
   ],
   "references": [
