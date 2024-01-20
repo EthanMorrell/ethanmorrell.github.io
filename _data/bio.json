@@ -26,19 +26,14 @@
     {
       "name": "Toolsets/OS",
       "keywords": [ "Windows", "Ubuntu" ]
-    }
-  ],
-  "certifications": [
-    {
-      "name": "Certifications",
-      "startDate": "2021-10-30",
-      "endDate": "2025-10-31",
-      "summary": "GIAC Foundational Cybersecurity Technologies (GFACT) #201714"
     },
     {
-      "name": "Certifications",
-      "startDate": "2022-05-09",
-      "summary": "TestOut PC Pro #6-1C6-MT74P"
+      "name": "GIAC Foundational Cybersecurity Technologies (GFACT)",
+      "keywords": [ "Analyst ID: #201714" ]
+    },
+    {
+      "name": "TestOut PC Pro",
+      "keywords": [ "Certificate ID: #6-1C6-MT74P" ]
     }
   ],
   "education": [
@@ -64,7 +59,7 @@
       ]
     },
     {
-      "company": "UH Manoa Department of Mathematics",
+      "company": "UH Manoa CNS Department of Mathematics",
       "position": "Math Learning Assistant",
       "website": "",
       "startDate": "2023-08-21",
