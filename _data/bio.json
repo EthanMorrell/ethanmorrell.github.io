@@ -43,6 +43,16 @@
       "studyType": "B.A.",
       "startDate": "2022-08-22",
       "endDate": "Present",
+      "courses": [
+        "ICS 111: Introduction to Computer Science I (Object-Oriented Programming)",
+        "ICS 211: Introduction to Computer Science II (Data Structures)",
+        "ICS 141: Discrete Mathematics for Computer Science I",
+        "ICS 241: Discrete Mathematics for Computer Science II",
+        "ICS 212: Program Structure",
+        "ICS 222: Basic Concepts of Computer Science",
+        "ICS 311: Algorithms (In Progress)",
+        "ICS 314: Software Engineering I (In Progress)",
+      ]
     }
   ],
   "work": [
