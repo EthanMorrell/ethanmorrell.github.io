@@ -19,13 +19,13 @@ There are many benefits to asking such questions. However, some questions are mo
 Attached are some examples of both “smart” and “not smart” questions.
 
 ## One Smart Question
-https://stackoverflow.com/questions/45225076/incorrect-line-numbers-sourcemaps-webpack-2-typescript 
+<a href="https://stackoverflow.com/questions/45225076/incorrect-line-numbers-sourcemaps-webpack-2-typescript"></a>
 
 This questioner has clearly done some research to fix the problem before posting it to the forum. They provide a list of ways in which they have already attempted to correct the issue along with the (unwanted) results. Furthermore, they provide numerous snippets of their Typescript code and highlight which portions of it in which they are seeing the “wrong line number”. This user has demonstrated a clear effort to attempt to solve their problem and has gone through the steps to create a smart question.
 
 ## One Not-So-Smart Question
 
-https://stackoverflow.com/questions/32255666/interruptedexception-when-debugging-android-app 
+<a href="https://stackoverflow.com/questions/32255666/interruptedexception-when-debugging-android-app"></a>
 
 It is also important to be aware of not smart questions disguised as smart questions. For instance, a question such as this one may cover a majority of our criteria for a smart question. In this post, the questioner provides a snippet of the exception that they receive when the app they are debugging crashes. They also state two scenarios in which the app crashes (as seen in the screenshot). While this might seem to be a smart question due to its conciseness and with the information it provides, it violates a few of our smart criteria. Namely:
 
