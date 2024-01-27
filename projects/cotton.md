@@ -2,13 +2,14 @@
 layout: project
 type: project
 image: img/cotton/cotton-square.png
-title: "Cotton"
-date: 2014
-published: false
+title: "GreyHats at UH Manoa"
+date: 2023
+published: true
 labels:
-  - Lisp
-  - GitHub
-summary: "A text adventure game that I developed for ICS 313."
+  - Cybersecurity
+  - Leadership
+  - Extracurricular activity
+summary: "GreyHats is a Registered Independent Organization (RIO) at UH Manoa. The club discusses cybersecurity topics and participates in various cybersecurity competitions."
 ---
 
 <img class="img-fluid" src="../img/cotton/cotton-header.png">
