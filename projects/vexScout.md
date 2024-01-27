@@ -9,7 +9,7 @@ labels:
   - Software Development
   - Mobile Applications
   - UI Design
-summary: "A responsive web application for travel planning that my team developed in ICS 415."
+summary: "A mobile application developed for the 2020 Campbell Hawaii Hack-a-thon."
 ---
 
 ## About the Project
