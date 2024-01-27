@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/vex-scout/vex-scout-square.png
+image: img/vex-scout-square.png
 title: "VEX Scout"
 date: 2020
 published: true
@@ -23,19 +23,19 @@ As part of this project, my team learned how to make a mobile app with Thunkable
 All members of the group contributed equally to the final app. Each member was tasked with a specific function or page of the app, and was responsible for communicating with the other members to create a cohesive design. All members were responsible for implementing their assigned features and making a corresponding UI. As the project lead, I helped facilitate group discussions, tracked each member’s progress, and helped keep the overall project on schedule.
 When the project was finished, my partners and I pitched our app to a panel of judges (composed of computer science teachers and community members). My team won first place in this competition for demonstrating excellence in our presentation and app design.
 
-We were also featured on <a href = "https://www.hawaiinewsnow.com/video/2020/02/24/education-inspiration-campbell-high-school/" target = "_blank">a segment of Hawaii News Now!</a>
+My group was also featured on <a href = "https://www.hawaiinewsnow.com/video/2020/02/24/education-inspiration-campbell-high-school/" target = "_blank">a segment of Hawaii News Now!</a>
 
 ## Project Screenshots
 
 <div class="text-center p-4">
-  <img width="200px" src="../img/vex-scout/login.png" class="img-thumbnail" >
-  <img width="200px" src="../img/vex-scout/home.png" class="img-thumbnail" >
-  <img width="200px" src="../img/vex-scout/roster.png" class="img-thumbnail" >
-  <img width="200px" src="../img/vex-scout/team-info.png" class="img-thumbnail" >
+  <img width="200px" src="../img/login.png" class="img-thumbnail" >
+  <img width="200px" src="../img/home.png" class="img-thumbnail" >
+  <img width="200px" src="../img/roster.png" class="img-thumbnail" >
+  <img width="200px" src="../img/team-info.png" class="img-thumbnail" >
 </div>
 <div class="text-center p-4">
-  <img width="200px" src="../img/vex-scout/scout-in.png" class="img-thumbnail" >
-  <img width="200px" src="../img/vex-scout/matches.png" class="img-thumbnail" >
-  <img width="200px" src="../img/vex-scout/comments.png" class="img-thumbnail" >
-  <p>These mockups were made using Marvel.</p>
+  <img width="200px" src="../img/scout-in.png" class="img-thumbnail" >
+  <img width="200px" src="../img/matches.png" class="img-thumbnail" >
+  <img width="200px" src="../img/comments.png" class="img-thumbnail" >
+  <p>App screenshots created with Marvel software.</p>
 </div>
