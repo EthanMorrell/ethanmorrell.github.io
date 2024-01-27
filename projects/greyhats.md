@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/cotton/cotton-square.png
+image: img/greyhats-logo.png
 title: "GreyHats at UH Manoa"
 date: 2023
 published: true
