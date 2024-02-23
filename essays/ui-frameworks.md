@@ -28,7 +28,7 @@ I also appreciate the flexibility that Bootstrap offers. As someone with limited
 Is Bootstrap really necessary? Countless websites are made without the use of the tool. However, this does not mean that it is useless. Here's an example from my personal life. Both of these following websites were made by yours truly in the same amount of time (about thirty minutes). The surf-themed website was made with raw HTML and CSS. The clone of the Morning Brew Hawaii website was made with HTML, Boostrap, and some additional CSS. Though I may have been able to create a presentable website without the use of UI frameworks, it would certainly have taken much longer and with much more headache.
 
 <h5>Raw HTML and CSS</h5>
-<img style="width:50%;" src="../img/SurfsUpSite">
+<img style="width:50%;" src="../img/SurfsUpSite.png">
 
 <h5>HTML, CSS, and Bootsrap</h5>
-<img style="width:50%;" src="../img/MorningBrewSite">
+<img style="width:50%;" src="../img/MorningBrewSite.png">
