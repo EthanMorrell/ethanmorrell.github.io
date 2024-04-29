@@ -3,7 +3,7 @@ layout: essay
 type: essay
 title: "Should AI Be Used in the Classroom?"
 # All dates must be YYYY-MM-DD format!
-date: 2024/04/29
+date: 2024-04-29
 published: true
 labels:
   - AI
@@ -94,7 +94,7 @@ Overall, I do not think that my use of AI has challenged my understanding. With 
 
 ### IV. Practical Applications:
 
-I used AI for a personal one personal project this semester. I wanted to use some tools from this class to make something for my girlfriend, but we were not far along enough in the schedule to know how to make a full-blown website yet, so I used ChatGPT to speed up the process due to the short timeframe.
+I used AI for one personal project this semester. I wanted to use some tools from this class to make something for my girlfriend, but we were not far along enough in the schedule to know how to make a full-blown website yet, so I used ChatGPT to speed up the process due to the short timeframe.
 
 I have since then learned all of the skills needed in much more depth, so I would not have needed to use AI for a project like that if I started working on one now. Other than that, I have not used AI for any "real-world" projects thus far, but may in the near future now that the summer break is coming up.
 
@@ -124,10 +124,8 @@ I do not know what the solution to this is. However, I absolutely do not think t
 
 ### VIII. Conclusion:
 
-Summarize your reflections and insights regarding the use of AI in the Software Engineering course. Conclude with any recommendations or suggestions for optimizing the integration of AI in future courses.
-
 I used AI in many aspects of this course, and I know from talking to some of my peers and reading some of their essays that they did the same. As AI continues to grow in popularity and performance, I do not think it likely that it'll go away, nor will it play a lesser role in education than it does today.
 
-I do not think AI should be feared or looked down upon. In the same way that many problems could be solved with a quick Google search back then, the same can be done by typing the same question into ChatGPT now. Same stuff, different day. I won't downplay the abilities of ChatGPT though. Google sure can't generate an entire assignment for you (at least at the time of writing).
+I do not think AI should be feared or looked down upon. In the same way that many problems could be solved with a quick Google search back then, the same can be done by typing the same question into ChatGPT now. Same stuff, different day. I won't downplay the capabilities of ChatGPT, though. Google sure can't generate an entire assignment for you (at least at the time of writing).
 
-The best that students can do is understand the advantages and disadvantages of using Ai, and the best that educators can do is to continue teaching important skills and to coach students on "proper" usage of AI.
+The best that students can do is understand the advantages and disadvantages of using AI, and the best that educators can do is to continue teaching important skills and to coach students on "proper" usage of AI.
