@@ -1,10 +1,10 @@
 ---
 layout: project
 type: project
-image: <img/pathToThumbnail>
+#image: <img/pathToThumbnail>
 title: "<Title Goes Here>"
-date: <YYYY>
-published: <true/false>
+date: 2024
+published: false
 labels:
   - Label1
   - Label2
