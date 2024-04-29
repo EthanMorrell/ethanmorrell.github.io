@@ -19,7 +19,7 @@ This essay provides an overview of the key concepts and tools related to AI that
 ### II. Personal Experience with AI:
 I have used AI in class this semester in the following areas:
 
-1. `<span id="II-1">`Experience WODs e.g. E18`</span>`
+1. <span id="II-1">Experience WODs e.g. E18</span>
    - Explained API/library usage (E18-E20):
      - "Explain how to use the _.map() function in Underscore"
      - "Explain how to implement this function in Underscore `<CodeSegmentHere>`"
