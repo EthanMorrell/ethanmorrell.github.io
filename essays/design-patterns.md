@@ -6,8 +6,8 @@ title: "How Software Blueprints Simplify Problems"
 date: 2024-04-25
 published: true
 labels:
-  - Software engineering
-  - Design patterns
+  - Software Engineering
+  - Design Patterns
 ---
 
 <img width="300px" src="../img/restaurant.jpg">
