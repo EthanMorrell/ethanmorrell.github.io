@@ -21,11 +21,11 @@
   "skills": [
     {
       "name": "Languages and Frameworks",
-      "keywords": [ "C", "C++", "Java", "Python", "R" ]
+      "keywords": [ "C", "C++", "Java", "HTML", "CSS", "JavaScript", "React", "Python", "R" ]
     },
     {
       "name": "Toolsets/OS",
-      "keywords": [ "Windows", "Ubuntu" ]
+      "keywords": [ "Windows", "Ubuntu", "Kali Linux" ]
     },
     {
       "name": "GIAC Foundational Cybersecurity Technologies (GFACT)",
@@ -50,8 +50,8 @@
         "ICS 241: Discrete Mathematics for Computer Science II",
         "ICS 212: Program Structure",
         "ICS 222: Basic Concepts of Computer Science",
-        "ICS 311: Algorithms (In Progress)",
-        "ICS 314: Software Engineering I (In Progress)",
+        "ICS 311: Algorithms",
+        "ICS 314: Software Engineering I"
       ]
     }
   ],
@@ -73,7 +73,7 @@
       "position": "Math Learning Assistant",
       "website": "",
       "startDate": "2023-08-21",
-      "endDate": "Present",
+      "endDate": "2024-05-10",
       "summary": "",
       "highlights": [
         "Help lead two sections of precalculus recitations (~60 students)",
