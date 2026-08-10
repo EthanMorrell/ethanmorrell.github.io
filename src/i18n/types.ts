@@ -2,6 +2,9 @@ export interface UIStrings {
   nav: {
     home: string;
     posts: string;
+    projects: string;
+    club: string;
+    series: string;
     tags: string;
     about: string;
     archives: string;
@@ -44,6 +47,24 @@ export interface UIStrings {
 
     postsTitle: string;
     postsDesc: string;
+
+    projectsTitle: string;
+    projectsDesc: string;
+    clubTitle: string;
+    clubDesc: string;
+    seriesTitle: string;
+    seriesDesc: string;
+    seriesListTitle: string;
+    projectSeriesTitle: string;
+    clubSeriesTitle: string;
+    otherSeriesTitle: string;
+    standaloneProjectsTitle: string;
+    standaloneClubTitle: string;
+    seriesPostsTitle: string;
+    noProjects: string;
+    noClubPosts: string;
+    noSeries: string;
+    noSeriesPosts: string;
 
     archivesTitle: string;
     archivesDesc: string;

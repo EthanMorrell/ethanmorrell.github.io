@@ -1,0 +1,31 @@
+---
+import type { CollectionEntry } from "astro:content";
+import { getSeriesUrl } from "@/utils/getSeries";
+
+type Props = {
+  entry: CollectionEntry<"series">;
+  postCount: number;
+  variant?: "h2" | "h3";
+};
+
+const { entry, postCount, variant: Heading = "h3" } = Astro.props;
+const { title, description } = entry.data;
+---
+
+<li class="my-6">
+  <a
+    href={getSeriesUrl(entry.id, Astro.currentLocale)}
+    class:list={[
+      "text-accent inline-block text-lg font-medium",
+      "decoration-dashed underline-offset-4 hover:underline",
+      "focus-visible:no-underline focus-visible:underline-offset-0",
+    ]}
+  >
+    <Heading>{title}</Heading>
+  </a>
+  <p class="text-muted-foreground text-sm">
+    {postCount}
+    {postCount === 1 ? "post" : "posts"}
+  </p>
+  <p>{description}</p>
+</li>

@@ -4,6 +4,9 @@ export default {
   nav: {
     home: "Home",
     posts: "Posts",
+    projects: "Projects",
+    club: "GreyHats",
+    series: "Series",
     tags: "Tags",
     about: "About",
     archives: "Archives",
@@ -46,6 +49,26 @@ export default {
 
     postsTitle: "Posts",
     postsDesc: "All the articles I've posted.",
+
+    projectsTitle: "Projects",
+    projectsDesc: "Standalone projects and project series.",
+
+    clubTitle: "GreyHats",
+    clubDesc: "Standalone club posts and club series.",
+
+    seriesTitle: "Series",
+    seriesDesc: "All article series, grouped by section.",
+    seriesListTitle: "Series",
+    projectSeriesTitle: "Project series",
+    clubSeriesTitle: "Club series",
+    otherSeriesTitle: "Other series",
+    standaloneProjectsTitle: "Standalone projects",
+    standaloneClubTitle: "Standalone club posts",
+    seriesPostsTitle: "Posts in this series",
+    noProjects: "No projects have been published yet.",
+    noClubPosts: "No club posts have been published yet.",
+    noSeries: "No series have been published yet.",
+    noSeriesPosts: "No posts have been published in this series yet.",
 
     archivesTitle: "Archives",
     archivesDesc: "All the articles I've archived.",
