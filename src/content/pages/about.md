@@ -3,35 +3,22 @@ title: "About"
 description: "A bit about me and this blog."
 ---
 
-AstroPaper is a minimal, accessible and SEO-friendly blog theme built with [Astro](https://astro.build/) and [Tailwind CSS](https://tailwindcss.com/).
+Hi, I'm Ethan Morrell. My native name is Wadasét Zhabwé (literal translation: Brave Breakthrough). My hacker handle is Thon (sometimes stylized as Th0n).
 
-![Astro Paper](@/assets/images/astropaper-og.jpg)
+From a young age, I have been interested in technology and understanding how things work. Those interests led me to develop a passion for robotics, later computer science, and now cybersecurity. I am particularly interested in offensive security - the art of breaking security systems and rebuilding them stronger than before.
 
-AstroPaper provides a solid foundation for blogs, or even portfolios\_ with full markdown support, built-in dark mode, and a clean layout that works out-of-the-box.
+I am currently pursuing an M.S. in Computer Science at the University of Hawaii at Manoa, where I am also an NSF CyberAI SFS Scholar. To learn more about my professional activities, ~~do some OSINT~~ visit my [Linkedin](https://www.linkedin.com/in/ethan-morrell).
 
-The blog posts in this theme also serve as guides, docs or example articles\_ making AstroPaper a flexible starting point for your next content-driven site.
+## About LibThon
 
-## Features
+Two things I love are learning about cybersecurity and teaching others. I designed this site to be a digital library of the things I learn and (hopefully) an educational resource for others.
 
-AstroPaper comes with a set of useful features that make content publishing easy and effective:
+Why the name `LibThon`? The idea comes from the Unix naming convention where `Library for XYZ` becomes `LibXYZ`. Following this, `Thon's Library` becomes `LibThon`.
 
-- SEO-friendly
-- Fast performance
-- Light & dark mode
-- Highly customizable
-- Organizable blog posts
-- Responsive & accessible
-- Static search with [PageFind](https://pagefind.app/)
-- Automatic social image generation
+Though not originally intended, I like these ideas as well: 
+- `libpython` - the static library for Python - without the `py`
+- `Lib`rary of `Thon`gress
 
-and so much more.
+## Navigating This Site
 
-## Show your support
-
-If you like [AstroPaper](https://github.com/satnaing/astro-paper), consider giving it a star ⭐️.
-
-Found a bug 🐛 or have an improvement ✨ in mind? Feel free to open an [issue](https://github.com/satnaing/astro-paper/issues), submit a [pull request](https://github.com/satnaing/astro-paper/pulls) or start a [discussion](https://github.com/satnaing/astro-paper/discussions).
-
-If you find this theme helpful, you can also [sponsor me on GitHub](https://github.com/sponsors/satnaing) or [buy me a coffee](https://buymeacoffee.com/satnaing) to show your support — every penny counts.
-
-Kyay zuu! 🙏🏼
+Posts can either be standalone or part of a series. You may view [all posts](/posts/), check out posts related to my [personal projects](/projects/), or view posts by [series](/series/). If you're here for Grey Hats, I made a [special link](/club/) just for you.
