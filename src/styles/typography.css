@@ -22,13 +22,12 @@
     ol,
     ul,
     figcaption,
-    table,
-    code {
+    table {
       @apply text-foreground;
     }
 
     a {
-      @apply text-foreground hover:text-accent wrap-break-word decoration-dashed underline-offset-4 focus-visible:no-underline;
+      @apply text-foreground hover:text-accent wrap-break-word underline-offset-4 focus-visible:no-underline;
     }
 
     ul {
@@ -85,8 +84,10 @@
       }
     }
 
-    code {
-      @apply bg-muted/75 text-foreground rounded p-1 wrap-break-word before:content-none after:content-none;
+    code:not(pre code) {
+      @apply rounded px-1.5 py-0.5 wrap-break-word before:content-none after:content-none;
+      background-color: var(--inline-code-background);
+      color: var(--inline-code-foreground);
     }
 
     .astro-code code {
