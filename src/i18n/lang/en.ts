@@ -51,13 +51,13 @@ export default {
     postsDesc: "All the articles I've posted.",
 
     projectsTitle: "Projects",
-    projectsDesc: "Standalone projects and project series.",
+    projectsDesc: "Projects, experiments, and ongoing work.",
 
     clubTitle: "GreyHats",
-    clubDesc: "Standalone club posts and club series.",
+    clubDesc: "Posts and resources from the cybersecurity club.",
 
     seriesTitle: "Series",
-    seriesDesc: "All article series, grouped by section.",
+    seriesDesc: "Ongoing and multi-part work, ordered by recent activity.",
     seriesListTitle: "Series",
     projectSeriesTitle: "Project series",
     clubSeriesTitle: "Club series",

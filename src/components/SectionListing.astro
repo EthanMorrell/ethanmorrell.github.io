@@ -5,10 +5,9 @@ import Header from "./Header.astro";
 import Breadcrumb from "./Breadcrumb.astro";
 import Main from "./Main.astro";
 import Card from "./Card.astro";
-import SeriesCard from "./SeriesCard.astro";
 import Footer from "./Footer.astro";
 import { getSortedPosts } from "@/utils/getSortedPosts";
-import { getSeriesPosts, type SeriesSection } from "@/utils/getSeries";
+import type { SeriesSection } from "@/utils/getSeries";
 import { useTranslations } from "@/i18n";
 import config from "@/config";
 
@@ -23,19 +22,12 @@ const t = useTranslations(locale);
 const isProjects = section === "projects";
 const pageTitle = isProjects ? t.pages.projectsTitle : t.pages.clubTitle;
 const pageDesc = isProjects ? t.pages.projectsDesc : t.pages.clubDesc;
-const postsTitle = isProjects
-  ? t.pages.standaloneProjectsTitle
-  : t.pages.standaloneClubTitle;
 const emptyMessage = isProjects ? t.pages.noProjects : t.pages.noClubPosts;
 
 const allPosts = await getCollection("posts");
 const sectionPosts = getSortedPosts(allPosts).filter(
   ({ data }) => data.section === section
 );
-const standalonePosts = sectionPosts.filter(({ data }) => !data.series);
-const seriesEntries = (await getCollection("series"))
-  .filter(({ data }) => data.section === section)
-  .sort((a, b) => a.data.title.localeCompare(b.data.title));
 ---
 
 <Layout title={`${pageTitle} | ${config.site.title}`} description={pageDesc}>
@@ -45,45 +37,12 @@ const seriesEntries = (await getCollection("series"))
 
   <Main {pageTitle} {pageDesc}>
     {
-      seriesEntries.length === 0 && standalonePosts.length === 0 ? (
+      sectionPosts.length === 0 ? (
         <p>{emptyMessage}</p>
       ) : (
-        <div class="space-y-10">
-          {seriesEntries.length > 0 && (
-            <section aria-labelledby={`${section}-series`}>
-              <h2
-                id={`${section}-series`}
-                class="text-xl font-semibold sm:text-2xl"
-              >
-                {t.pages.seriesListTitle}
-              </h2>
-              <ul>
-                {seriesEntries.map(entry => (
-                  <SeriesCard
-                    {entry}
-                    postCount={getSeriesPosts(allPosts, entry.id).length}
-                  />
-                ))}
-              </ul>
-            </section>
-          )}
-
-          {standalonePosts.length > 0 && (
-            <section aria-labelledby={`${section}-posts`}>
-              <h2
-                id={`${section}-posts`}
-                class="text-xl font-semibold sm:text-2xl"
-              >
-                {postsTitle}
-              </h2>
-              <ul>
-                {standalonePosts.map(post => (
-                  <Card {...post} />
-                ))}
-              </ul>
-            </section>
-          )}
-        </div>
+        <ul>
+          {sectionPosts.map(post => <Card {...post} />)}
+        </ul>
       )
     }
   </Main>
