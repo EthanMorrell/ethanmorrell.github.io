@@ -3,7 +3,7 @@ export interface UIStrings {
     home: string;
     posts: string;
     projects: string;
-    club: string;
+    greyhats: string;
     series: string;
     tags: string;
     about: string;
@@ -20,8 +20,10 @@ export interface UIStrings {
     backToTop: string;
     goBack: string;
     editPage: string;
-    previousPost: string;
-    nextPost: string;
+    previousInSeries: string;
+    nextInSeries: string;
+    viewFullSeries: string;
+    seriesNavigation: string;
   };
   pagination: {
     prev: string;
@@ -50,19 +52,19 @@ export interface UIStrings {
 
     projectsTitle: string;
     projectsDesc: string;
-    clubTitle: string;
-    clubDesc: string;
+    greyhatsTitle: string;
+    greyhatsDesc: string;
     seriesTitle: string;
     seriesDesc: string;
     seriesListTitle: string;
     projectSeriesTitle: string;
-    clubSeriesTitle: string;
+    greyhatsSeriesTitle: string;
     otherSeriesTitle: string;
     standaloneProjectsTitle: string;
-    standaloneClubTitle: string;
+    standaloneGreyhatsTitle: string;
     seriesPostsTitle: string;
     noProjects: string;
-    noClubPosts: string;
+    noGreyhatsPosts: string;
     noSeries: string;
     noSeriesPosts: string;
 

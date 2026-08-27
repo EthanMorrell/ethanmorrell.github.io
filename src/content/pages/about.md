@@ -15,10 +15,11 @@ Two things I love are learning about cybersecurity and teaching others. I design
 
 Why the name `LibThon`? The idea comes from the Unix naming convention where `Library for XYZ` becomes `LibXYZ`. Following this, `Thon's Library` becomes `LibThon`.
 
-Though not originally intended, I like these ideas as well: 
+Though not originally intended, I like these ideas as well:
+
 - `libpython` - the static library for Python - without the `py`
 - `Lib`rary of `Thon`gress
 
 ## Navigating This Site
 
-Posts can either be standalone or part of a series. You may view [all posts](/posts/), check out posts related to my [personal projects](/projects/), or view posts by [series](/series/). If you're here for Grey Hats, I made a [special link](/club/) just for you.
+Posts can either be standalone or part of a series. You may view [all posts](/posts/), check out posts related to my [personal projects](/projects/), or view posts by [series](/series/). If you're here for Grey Hats, I made a [special link](/greyhats/) just for you.

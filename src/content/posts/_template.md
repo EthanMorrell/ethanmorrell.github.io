@@ -37,7 +37,7 @@ pubDatetime: 2026-08-10T12:00:00Z
 # Optional: IANA timezone used when displaying this post's dates.
 # timezone: Pacific/Honolulu
 
-# Optional (default: general): projects, club, or general.
+# Optional (default: general): projects, greyhats, or general.
 # section: projects
 
 # Optional: series filename without .md, for example libthon.md -> libthon.

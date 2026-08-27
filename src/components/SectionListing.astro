@@ -20,9 +20,9 @@ const locale = Astro.currentLocale ?? config.site.lang;
 const t = useTranslations(locale);
 
 const isProjects = section === "projects";
-const pageTitle = isProjects ? t.pages.projectsTitle : t.pages.clubTitle;
-const pageDesc = isProjects ? t.pages.projectsDesc : t.pages.clubDesc;
-const emptyMessage = isProjects ? t.pages.noProjects : t.pages.noClubPosts;
+const pageTitle = isProjects ? t.pages.projectsTitle : t.pages.greyhatsTitle;
+const pageDesc = isProjects ? t.pages.projectsDesc : t.pages.greyhatsDesc;
+const emptyMessage = isProjects ? t.pages.noProjects : t.pages.noGreyhatsPosts;
 
 const allPosts = await getCollection("posts");
 const sectionPosts = getSortedPosts(allPosts).filter(
@@ -41,7 +41,9 @@ const sectionPosts = getSortedPosts(allPosts).filter(
         <p>{emptyMessage}</p>
       ) : (
         <ul>
-          {sectionPosts.map(post => <Card {...post} />)}
+          {sectionPosts.map(post => (
+            <Card {...post} />
+          ))}
         </ul>
       )
     }

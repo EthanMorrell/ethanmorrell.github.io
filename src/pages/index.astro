@@ -53,7 +53,8 @@ const homePath = getRelativeLocaleUrl(locale, "");
       </a>
 
       <p>
-        Welcome to my InfoSec blog. My name is Ethan Morrell. If you are here to know more about me or this site, please visit the{" "}
+        Welcome to my InfoSec blog. My name is Ethan Morrell. If you are here to
+        know more about me or this site, please visit the{" "}
         <LinkButton
           class="hover:text-accent underline underline-offset-4"
           href={getRelativeLocaleUrl(locale, "about")}
@@ -62,11 +63,10 @@ const homePath = getRelativeLocaleUrl(locale, "");
         </LinkButton>
         {" "}page.
       </p>
-      <p class="mt-5">
-      This site is organized into three main collections:
-      </p>
-      <ul class="list-disc ps-6 mt-0.5">
-        <li>A portfolio of my{" "}
+      <p class="mt-5">This site is organized into three main collections:</p>
+      <ul class="mt-0.5 list-disc ps-6">
+        <li>
+          A portfolio of my{" "}
           <LinkButton
             class="hover:text-accent underline underline-offset-4"
             href={getRelativeLocaleUrl(locale, "projects")}
@@ -74,15 +74,17 @@ const homePath = getRelativeLocaleUrl(locale, "");
             personal projects
           </LinkButton>
         </li>
-        <li>Resources for my{" "}
+        <li>
+          Resources for my{" "}
           <LinkButton
             class="hover:text-accent underline underline-offset-4"
-            href={getRelativeLocaleUrl(locale, "club")}
+            href={getRelativeLocaleUrl(locale, "greyhats")}
           >
-            cybersecurity club
+            Grey Hats
           </LinkButton>
         </li>
-        <li>And{" "}
+        <li>
+          And{" "}
           <LinkButton
             class="hover:text-accent underline underline-offset-4"
             href={getRelativeLocaleUrl(locale, "posts")}
