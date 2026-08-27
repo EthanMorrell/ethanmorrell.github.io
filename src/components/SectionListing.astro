@@ -2,7 +2,6 @@
 import { getCollection } from "astro:content";
 import Layout from "@/layouts/Layout.astro";
 import Header from "./Header.astro";
-import Breadcrumb from "./Breadcrumb.astro";
 import Main from "./Main.astro";
 import Card from "./Card.astro";
 import Footer from "./Footer.astro";
@@ -32,8 +31,6 @@ const sectionPosts = getSortedPosts(allPosts).filter(
 
 <Layout title={`${pageTitle} | ${config.site.title}`} description={pageDesc}>
   <Header />
-
-  <Breadcrumb />
 
   <Main {pageTitle} {pageDesc}>
     {
