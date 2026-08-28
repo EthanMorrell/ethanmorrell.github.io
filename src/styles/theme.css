@@ -1,0 +1,62 @@
+/* Register design tokens for Tailwind v4 */
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-border: var(--border);
+  --font-app: var(--font-google-sans-code);
+}
+
+/* Light theme values */
+:root,
+[data-theme="light"] {
+  --background: #fdfdfd;
+  --foreground: #282728;
+  --accent: #006cac;
+  --accent-foreground: #ffffff;
+  --muted: #e6e6e6;
+  --muted-foreground: #6b7280;
+  --border: #ece9e9;
+  --inline-code-background: #f0eef4;
+  --inline-code-foreground: #6d28d9;
+  --chip-section-background: #ccfbf1;
+  --chip-section-foreground: #115e59;
+  --chip-section-border: #5eead4;
+  --chip-section-hover: #99f6e4;
+  --chip-series-background: #ffebe4;
+  --chip-series-foreground: #9a3412;
+  --chip-series-border: #fb9873;
+  --chip-series-hover: #ffd8ca;
+  --chip-tag-background: #fce7f3;
+  --chip-tag-foreground: #9d174d;
+  --chip-tag-border: #f9a8d4;
+  --chip-tag-hover: #fbcfe8;
+}
+
+/* Dark theme values */
+[data-theme="dark"] {
+  --background: #1c1d21;
+  --foreground: #edf1f7;
+  --accent: #7dcfff;
+  --accent-foreground: #101317;
+  --muted: #2a2c32;
+  --muted-foreground: #aeb6c2;
+  --border: #3a3d46;
+  --inline-code-background: #292b31;
+  --inline-code-foreground: #c4b5fd;
+  --chip-section-background: #153c3a;
+  --chip-section-foreground: #8ce9de;
+  --chip-section-border: #2d716b;
+  --chip-section-hover: #1d4b48;
+  --chip-series-background: #47271f;
+  --chip-series-foreground: #ffb49a;
+  --chip-series-border: #8f4d3a;
+  --chip-series-hover: #5a3027;
+  --chip-tag-background: #44253b;
+  --chip-tag-foreground: #f4a6dc;
+  --chip-tag-border: #7a456a;
+  --chip-tag-hover: #55304a;
+}

@@ -1,0 +1,50 @@
+---
+import { getCollection } from "astro:content";
+import Layout from "@/layouts/Layout.astro";
+import Header from "./Header.astro";
+import Main from "./Main.astro";
+import Card from "./Card.astro";
+import Footer from "./Footer.astro";
+import { getSortedPosts } from "@/utils/getSortedPosts";
+import type { SeriesSection } from "@/utils/getSeries";
+import { useTranslations } from "@/i18n";
+import config from "@/config";
+
+type Props = {
+  section: SeriesSection;
+};
+
+const { section } = Astro.props;
+const locale = Astro.currentLocale ?? config.site.lang;
+const t = useTranslations(locale);
+
+const isProjects = section === "projects";
+const pageTitle = isProjects ? t.pages.projectsTitle : t.pages.greyhatsTitle;
+const pageDesc = isProjects ? t.pages.projectsDesc : t.pages.greyhatsDesc;
+const emptyMessage = isProjects ? t.pages.noProjects : t.pages.noGreyhatsPosts;
+
+const allPosts = await getCollection("posts");
+const sectionPosts = getSortedPosts(allPosts).filter(
+  ({ data }) => data.section === section
+);
+---
+
+<Layout title={`${pageTitle} | ${config.site.title}`} description={pageDesc}>
+  <Header />
+
+  <Main {pageTitle} {pageDesc}>
+    {
+      sectionPosts.length === 0 ? (
+        <p>{emptyMessage}</p>
+      ) : (
+        <ul>
+          {sectionPosts.map(post => (
+            <Card {...post} />
+          ))}
+        </ul>
+      )
+    }
+  </Main>
+
+  <Footer />
+</Layout>

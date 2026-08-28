@@ -1,0 +1,52 @@
+---
+import { getCollection } from "astro:content";
+import Layout from "@/layouts/Layout.astro";
+import Header from "@/components/Header.astro";
+import Main from "@/components/Main.astro";
+import SeriesCard from "@/components/SeriesCard.astro";
+import Footer from "@/components/Footer.astro";
+import { getSeriesPosts } from "@/utils/getSeries";
+import { useTranslations } from "@/i18n";
+import config from "@/config";
+
+const locale = Astro.currentLocale ?? config.site.lang;
+const t = useTranslations(locale);
+const posts = await getCollection("posts");
+const latestActivity = (seriesPosts: typeof posts) =>
+  Math.max(
+    0,
+    ...seriesPosts.map(post =>
+      new Date(post.data.modDatetime ?? post.data.pubDatetime).getTime()
+    )
+  );
+const seriesItems = (await getCollection("series"))
+  .map(entry => ({ entry, posts: getSeriesPosts(posts, entry.id) }))
+  .sort(
+    (a, b) =>
+      latestActivity(b.posts) - latestActivity(a.posts) ||
+      a.entry.data.title.localeCompare(b.entry.data.title)
+  );
+---
+
+<Layout
+  title={`${t.pages.seriesTitle} | ${config.site.title}`}
+  description={t.pages.seriesDesc}
+>
+  <Header />
+
+  <Main pageTitle={t.pages.seriesTitle} pageDesc={t.pages.seriesDesc}>
+    {
+      seriesItems.length === 0 ? (
+        <p>{t.pages.noSeries}</p>
+      ) : (
+        <ul>
+          {seriesItems.map(({ entry, posts }) => (
+            <SeriesCard {entry} {posts} />
+          ))}
+        </ul>
+      )
+    }
+  </Main>
+
+  <Footer />
+</Layout>
