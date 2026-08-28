@@ -55,22 +55,22 @@ const sectionDetails = {
 
   <div class="mt-3 flex flex-wrap items-center gap-2">
     {
-      sectionDetails && (
-        <a
-          href={getRelativeLocaleUrl(locale, sectionDetails.path)}
-          class="meta-chip section-chip relative z-10 transition-colors"
-        >
-          {sectionDetails.label}
-        </a>
-      )
-    }
-    {
       series && (
         <a
           href={getSeriesUrl(series, locale)}
           class="meta-chip series-chip relative z-10 transition-colors"
         >
           Series: {seriesEntry?.data.title ?? series}
+        </a>
+      )
+    }
+    {
+      sectionDetails && (
+        <a
+          href={getRelativeLocaleUrl(locale, sectionDetails.path)}
+          class="meta-chip section-chip relative z-10 transition-colors"
+        >
+          {sectionDetails.label}
         </a>
       )
     }

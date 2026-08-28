@@ -12,6 +12,8 @@ import LinkButton from "@/components/LinkButton.astro";
 import { getSortedPosts } from "@/utils/getSortedPosts";
 import { useTranslations } from "@/i18n";
 import config from "@/config";
+import { Image } from "astro:assets";
+import profile from "@/assets/images/profile.png";
 
 const { socials, posts: postsConfig } = config;
 
@@ -34,75 +36,68 @@ const homePath = getRelativeLocaleUrl(locale, "");
     class="app-layout my-1"
   >
     <section id="hero" class="border-border border-b pt-8 pb-6">
-      <h1 class="my-4 inline-block text-4xl font-bold sm:my-8 sm:text-5xl">
-        Bozho (Hello)
-      </h1>
-      <a
-        target="_blank"
-        href={`${import.meta.env.BASE_URL.replace(/\/?$/, "/")}rss.xml`}
-        class="inline-block"
-        aria-label="RSS Feed"
-        title="RSS Feed"
+      <div
+        class="grid gap-8 lg:grid-cols-[minmax(0,3fr)_minmax(16rem,2fr)] lg:gap-x-12"
       >
-        <IconRss
-          width={20}
-          height={20}
-          class="stroke-accent scale-125 stroke-3 rtl:-rotate-90"
-        />
-        <span class="sr-only">RSS Feed</span>
-      </a>
-
-      <p>
-        Welcome to my InfoSec blog. My name is Ethan Morrell. If you are here to
-        know more about me or this site, please visit the{" "}
-        <LinkButton
-          class="hover:text-accent underline underline-offset-4"
-          href={getRelativeLocaleUrl(locale, "about")}
-        >
-          About
-        </LinkButton>
-        {" "}page.
-      </p>
-      <p class="mt-5">This site is organized into three main collections:</p>
-      <ul class="mt-0.5 list-disc ps-6">
-        <li>
-          A portfolio of my{" "}
-          <LinkButton
-            class="hover:text-accent underline underline-offset-4"
-            href={getRelativeLocaleUrl(locale, "projects")}
-          >
-            personal projects
-          </LinkButton>
-        </li>
-        <li>
-          Resources for my{" "}
-          <LinkButton
-            class="hover:text-accent underline underline-offset-4"
-            href={getRelativeLocaleUrl(locale, "greyhats")}
-          >
-            Grey Hats
-          </LinkButton>
-        </li>
-        <li>
-          And{" "}
-          <LinkButton
-            class="hover:text-accent underline underline-offset-4"
-            href={getRelativeLocaleUrl(locale, "posts")}
-          >
-            everything else
-          </LinkButton>
-        </li>
-      </ul>
-      {
-        socials.length > 0 && (
-          <div class="mt-5 flex max-sm:flex-col sm:items-center">
-            <div class="me-2 mb-1 whitespace-nowrap sm:mb-0">
-              {t.home.socialLinks}:
-            </div>
-            <Socials />
+        <div class="lg:col-start-1 lg:row-start-1">
+          <div class="flex items-center gap-4">
+            <h1 class="my-4 text-4xl font-bold sm:my-8 sm:text-5xl">
+              Bozho (Hello)
+            </h1>
+            <a
+              target="_blank"
+              href={`${import.meta.env.BASE_URL.replace(/\/?$/, "/")}rss.xml`}
+              class="inline-block"
+              aria-label="RSS Feed"
+              title="RSS Feed"
+            >
+              <IconRss
+                width={20}
+                height={20}
+                class="stroke-accent scale-125 stroke-3 rtl:-rotate-90"
+              />
+              <span class="sr-only">RSS Feed</span>
+            </a>
           </div>
-        )
-      }
+
+          <p>Welcome to my InfoSec blog!</p>
+          <p class="mt-5">
+            My name is Ethan. I am currently pursuing my M.S. in Computer Science at the University of Hawaii at Manoa. I have a strong interest in cybersecurity, which will be the focus of many of my posts.
+          </p>
+          <p class="mt-5">
+            You can learn more about me and this site{" "}
+            <LinkButton
+              class="hover:text-accent underline underline-offset-4"
+              href={getRelativeLocaleUrl(locale, "about")}
+            >
+              here
+            </LinkButton>
+            .
+          </p>
+        </div>
+
+        <div
+          class="max-w-80 justify-self-center p-3 lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:w-full lg:justify-self-end"
+        >
+          <Image
+            src={profile}
+            alt="Ethan Morrell"
+            class="h-full w-full rounded-lg object-cover"
+            loading="eager"
+          />
+        </div>
+
+        {
+          socials.length > 0 && (
+            <div class="flex max-sm:flex-col sm:items-center lg:col-start-1 lg:row-start-2 lg:self-end">
+              <div class="me-2 mb-1 whitespace-nowrap sm:mb-0">
+                {t.home.socialLinks}:
+              </div>
+              <Socials />
+            </div>
+          )
+        }
+      </div>
     </section>
 
     {

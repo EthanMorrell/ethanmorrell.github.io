@@ -3,7 +3,7 @@ title: "About"
 description: "A bit about me and this blog."
 ---
 
-Hi, I'm Ethan Morrell. My native name is Wadasét Zhabwé (literal translation: Brave Breakthrough). My hacker handle is Thon (sometimes stylized as Th0n).
+Hi, I'm Ethan Morrell. My native name is Wadasét Zhabwé (literal translation: Brave Breakthrough). My online alias is `Thon` (sometimes stylized as `Th0n`).
 
 From a young age, I have been interested in technology and understanding how things work. Those interests led me to develop a passion for robotics, later computer science, and now cybersecurity. I am particularly interested in offensive security - the art of breaking security systems and rebuilding them stronger than before.
 
