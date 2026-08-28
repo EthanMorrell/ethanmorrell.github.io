@@ -37,14 +37,22 @@ pubDatetime: 2026-08-10T12:00:00Z
 # Optional: IANA timezone used when displaying this post's dates.
 # timezone: Pacific/Honolulu
 
-# Optional (default: general): projects, greyhats, or general.
+# Optional (default: general): choose exactly one section value.
+# section: general
 # section: projects
+# section: greyhats
 
 # Optional: series filename without .md, for example libthon.md -> libthon.
 # series: libthon
 
 # Optional: numerical position within the series; normally starts at 1.
 # seriesOrder: 1
+
+# Post type recipes:
+# - General standalone: leave section, series, and seriesOrder commented out.
+# - Project standalone: use section: projects; omit series and seriesOrder.
+# - Grey Hats standalone: use section: greyhats; omit series and seriesOrder.
+# - Series post: choose its section, then set both series and seriesOrder.
 ---
 
 Post content starts here.
