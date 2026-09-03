@@ -3,8 +3,8 @@ title: The Making of LibThon
 description: Ethan Morrell's InfoSec Blog
 pubDatetime: 2026-09-02
 section: projects
-series: libthon # Optional: match a filename in src/content/series
-seriesOrder: 1
+# series: libthon # Optional: match a filename in src/content/series
+# seriesOrder: 1
 ---
 
 # Motivation and Background
